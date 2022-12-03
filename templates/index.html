@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <title>MUSIC RECOMMENDATION</title>
+    <style>
+        *{
+            margin: 0%;
+            box-sizing: 0%;
+        }
+        body{
+            background-color: rgb(250, 244, 244);
+        }
+        form{
+            background-color: rgb(255, 255, 255);
+            height: 45%;
+            width: 45%;
+            display: flex;
+            position: absolute;
+            top: 20%;
+            left: 23%;
+            box-shadow: 4px 4px 4px 4px rgba(163, 163, 163, 0.418);
+            border-radius: 20px;
+            padding: 40px;
+            flex-direction: row;
+        }
+        .rec_artist{
+            display: flex;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+        }
+        input{
+            position: absolute;
+            top: 150%;
+            border-radius: 30px;
+            height: 40px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            margin: 0;
+            border: 1px solid black;
+            font-size: larger;
+        }
+        input[type="submit"]{
+            height: 40px;
+            width: 100px;
+            cursor: pointer;
+        }
+        .submit{
+            position: absolute;
+            top: 65%;
+            left: 45%;
+        }
+    </style>
+</head>
+
+<body>
+    
+        <form action="" method="POST">
+            <div class="rec_artist">
+                <label for="rec_art"><h2>Recommendation badsed on Artist</h2></label><br><br>
+                <input type="text" name="artist" placeholder="Enter name of an artist"> 
+            </div>
+            <div class="submit">
+                <input type="submit">
+            </div>   
+        </form>
+    
+</body>
+</html>
